@@ -59,6 +59,7 @@ public class SecurityConfig {
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder(); // Retorna uma instância de BCryptPasswordEncoder
+
     }
 
     // Configura o AuthenticationManager usando AuthenticationConfiguration
